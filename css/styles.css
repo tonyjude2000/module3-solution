@@ -1,0 +1,49 @@
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.navbar,.navbar-default{
+  border-radius:0px;
+}
+@media (max-width:767px){
+  #collapsable-nav{
+    background-color:#c2c2d6;
+  }
+}
+#navlist li:hover{
+  background-color:white;
+  opacity:.5;
+}
+h1{
+  margin-top:-1px;
+  margin-left: 10px;
+  font-size:35px;
+
+}
+.navbar-header{
+  padding-bottom:25px;
+}
+#navbutton{
+  margin-top:15px;
+}
+#heading{
+  font-size:42px;
+  margin-bottom:35px;
+}
+#main-content{
+  background-color:#666699;
+  margin-left:10px;
+  margin-right: 10px;
+}
+#main-title{
+  text-decoration: none;
+}
+#main-text{
+  padding:15px;
+  font-size:16px;
+  color:white;
+}
+#food-title{
+  font-size:32px;
+  color:#ffa31a;
+  padding-top:20px;
+}
